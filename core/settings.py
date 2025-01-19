@@ -20,12 +20,12 @@ SECRET_KEY = "django-insecure-5dh)0gi2$j&y^2ayz^jlnv*)1l&yi32n9rri4d6tw)-ae931ga
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dauthtorender.onrender.com']
 
 INTERNAL_IPS={
     '127.0.0.1',
     'localhost:3000',
-    'solid-broccoli-p5x5qr75gqc67q5-3000.app.github.dev'
+    'dauthtorender.onrender.com'
 }
 
 CSRF_TRUSTED_ORIGINS = ['https://dauthtorender.onrender.com']
