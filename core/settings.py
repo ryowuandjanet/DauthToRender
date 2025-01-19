@@ -28,6 +28,8 @@ INTERNAL_IPS={
     'solid-broccoli-p5x5qr75gqc67q5-3000.app.github.dev'
 }
 
+CSRF_TRUSTED_ORIGINS = ['https://dauthtorender.onrender.com']
+
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
